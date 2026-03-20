@@ -136,7 +136,7 @@ margin: 5px;
 
 @media (max-width: 768px) {
     .btn1, .btn2 {
-        width: auto; /* keep natural width */
+        width: auto; 
         display: inline-block; 
 }
 }
@@ -293,6 +293,16 @@ margin: 5px;
     border: none;
 }
 
+.btn1:hover{
+     color: #0d1b2a;
+} 
+.btn2:hover{
+     color: #0d1b2a;
+}
+.btn3:hover{
+    color: #0d1b2a;
+
+}
 /* FOOTER */
 .footer-brand{
     display: flex;
